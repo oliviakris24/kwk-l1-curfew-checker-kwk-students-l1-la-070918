@@ -34,7 +34,8 @@ end
 
 deluxe_curfew 
 
-
+def platinum_curfew
+  
     
    
   
