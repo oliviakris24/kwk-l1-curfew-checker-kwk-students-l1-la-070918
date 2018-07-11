@@ -35,9 +35,19 @@ end
 deluxe_curfew 
 
 def platinum_curfew
-  puts "Hi! what is your curfew and what time is it currently?"
+  puts "Hi! What is your curfew and what time is it currently?"
   curfew2 = gets.chomp 
-  time = 
+  time3 = gets.chomp
+  if time3 > curfew2 
+    puts "You're in trouble"
+  elsif time3 == curfew2 
+    puts "Time to apparate"
+  else time3 < curfew2 
+    puts "You have #{curfew2-time3} hour(s) left. Keep having fun until your curfew!"
+  end 
+end
+
+platinum_curfew
   
     
    
