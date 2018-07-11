@@ -36,7 +36,9 @@ deluxe_curfew
 
 def platinum_curfew
   puts "Hi! what is your curfew and what time is it currently?"
-  curfew
+  curfew2 = gets.chomp 
+  time = 
+  
     
    
   
